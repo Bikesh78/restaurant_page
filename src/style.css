@@ -1,0 +1,25 @@
+body {
+    background-image: url('./pexels-lood-goosen-1235717.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    font-size: 50px;
+    color: white;
+    font-family: cursive;
+    margin: 50px 0;
+}
+p {
+    font-size: 24px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
