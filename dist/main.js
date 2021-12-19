@@ -1,1 +1,0 @@
-(()=>{"use strict";!function(){const e=document.querySelector("#content"),t=document.createElement("div"),n=document.createElement("p"),o=document.createElement("p");t.setAttribute("class","heading"),t.textContent="Tea And Tea",n.textContent="Come on down for some delicious cuisine!",o.textContent="Tasty and affordable!",e.appendChild(t),e.appendChild(n),e.appendChild(o)}()})();
