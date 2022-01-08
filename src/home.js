@@ -9,7 +9,7 @@ export default function loadHomePage(){
     let navItems = ['Home','Menu','Contact'];
 
     header.setAttribute('class','header');
-    body.insertBefore(header,content);
+    content.appendChild(header);
     header.appendChild(nav);
 
     for(let i=0; i<navItems.length; i++){
