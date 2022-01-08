@@ -1,5 +1,6 @@
 function createWebsite(){
     let body = document.querySelector('body');
+    let content = document.querySelector('#content');
     let navBar = document.createElement('div');
     let navList = document.createElement('ul');
     let navItems = ['Home', 'Menu', 'Contact'];
@@ -20,7 +21,7 @@ function createWebsite(){
         navList.appendChild(list);
     }
 
-    body.appendChild(navBar);
+    content.appendChild(navBar);
     navBar.appendChild(navList);
 }
 

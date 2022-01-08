@@ -59,6 +59,7 @@ a{
 }
 body{
     box-sizing: border-box;
+    font-size: 16px;
 }
 #content{
     width: 100%;
@@ -68,4 +69,25 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    padding: 15px;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-bar{
+    background-color: rgba(0,0,0,0.7);
 }
