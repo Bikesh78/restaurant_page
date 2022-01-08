@@ -1,5 +1,7 @@
 import loadHomePage from './home';
 import './style.css';
+import createWebsite from './skeleton';
 
-loadHomePage();
+createWebsite();
+// loadHomePage();
 // alert('Warning');
