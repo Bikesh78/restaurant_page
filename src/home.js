@@ -6,7 +6,7 @@ export default function loadHomePage(){
     const longParagraph = document.createElement('p');
     const bannerImage = document.createElement('img');
 
-    home.classList.add('home');
+    home.classList.add('section-home');
     longParagraph.classList.add('long-paragraph');
     bannerImage.classList.add('banner-image');
     
