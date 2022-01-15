@@ -25,4 +25,4 @@ function createWebsite(){
     navBar.appendChild(navList);
 }
 
-export default createWebsite();
+export default createWebsite;

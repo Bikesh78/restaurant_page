@@ -63,12 +63,12 @@ body{
 }
 #content{
     width: 100%;
-    height: 100vh;
+    /* height: 100vh;
     overflow: hidden;
     background-image:url(/src/pexels-lood-goosen-1235717.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
 }
 
 .nav-list{
