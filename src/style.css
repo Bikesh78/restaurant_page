@@ -91,3 +91,23 @@ body{
 .nav-bar{
     background-color: rgba(0,0,0,0.7);
 }
+
+.menu-container{
+   display: flex;
+   flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.menu-card {
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+    background-color: cyan;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
