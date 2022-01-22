@@ -15,7 +15,7 @@ function createWebsite(){
         list.classList.add('nav-item')
         link.setAttribute('href','');
         link.classList.add('nav-link')
-        link.classList.add(`${navItems[i]}`);
+        link.classList.add(`${navItems[i].toLowerCase()}`);
         link.innerText = navItems[i];
         list.appendChild(link); 
         navList.appendChild(list);
